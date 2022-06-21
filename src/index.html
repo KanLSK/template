@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Odia&family=Commissioner&family=Grape+Nuts&family=Inter&family=Kumbh+Sans:wght@400;700&family=League+Spartan&family=Overpass&family=Poppins&family=Rubik&family=Space+Mono&family=Square+Peg&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body class="font-['poppins']" id="body">
+    <!--navbar section-->
+    <div class="w-screen bg-[#e6f0ff] h-auto flex justify-center">
+      <nav class="w-full max-w-6xl h-auto bg-[#e6f0ff] flex items-center justify-between">
+        <div class="flex items-center">
+          <a href="#" class="mr-4 p-4"><img src="./images/Logo.svg" alt="logo"></a>
+          <ul class="p-4 hidden md:flex space-x-4 w-full">   
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Fratures</a>
+            </li>
+            <li>
+              <a href="#">Service</a>
+            </li>
+            <li>
+              <a href="#">Listed</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+      </div>
+      <div class="hidden md:flex space-x-4 mr-4 items-center">
+        <a href="#">Sign up</a>
+        <button class="bg-[#0f1b4c] py-2 px-3 text-white rounded-lg">Register</button>
+      </div>
+      <!--navbar sm size-->
+      <button class="md:hidden" id="open-btn">
+        <img src="./images/menu-icon.svg" alt="menu-icon" class="w-8 mr-4">
+      </button>
+      </nav>
+      <!--Dropdown Menu-->
+      <div class="bg-[#e6f0ff] w-screen h-screen absolute hidden z-10" id="menu">
+        <img src="./images/Logo.svg" alt="logo" class="absolute left-4 top-4">
+        <button class="absolute right-4 top-2" id="close-btn">
+          <img src="./images/icons8-close.svg" alt="close-btn" class="w-10">
+        </button>
+        <div class="w-screen h-screen grid place-items-center">
+          <div class="">
+            <ul class="text-2xl text-center space-y-4 divide-black">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <hr>
+              <li>
+                <a href="#">Fratures</a>
+              </li>
+              <hr>
+              <li>
+                <a href="#">Service</a>
+              </li>
+              <hr>
+              <li>
+                <a href="#">Listed</a>
+              </li>
+              <hr>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--First Section(Introduction)-->
+    <div class="w-screen h-auto bg-[#e6f0ff] flex justify-center">
+      <div class="w-full max-w-6xl flex flex-wrap items-center md:justify-between border-black mt-4">
+        <!--Paragraph-->
+        <div class="w-full md:ml-4 md:w-fit h-fit grid justify-center border-black space-y-2 md:space-y-6 mx-2 md:mx-0">
+          <p class="text-center md:text-left text-sm md:text-md text-[#78859c]">Welcome to Besnik Agency</p>
+          <p class="text-center md:text-left text-4xl md:text-5xl font-bold">Discover a place <br>you'll love to live.</p>
+          <p class="text-center md:text-left text-xs md:text-md text-[#78859c]">Get the best real estate deals first before they hit the mass <br>market! hot foreclosure deals with one simple search</p>
+          <button class="bg-[#0f1b4c] mx-auto md:mx-0 w-fit text-white px-6 py-2 rounded-md">More About Us</button>
+        </div>
+        <!--Image-->
+        <div class="mt-4 md:mr-4 self-end w-fit mx-auto border-black">
+          <img src="./images/house illustration.svg" alt="" class="w-[20em] lg:w-[25em]">
+        </div>
+      </div>
+    </div>
+    <!--Second Section(Review Rating)-->
+    <div class="w-screen h-auto flex justify-center">
+      <div class="w-full max-w-6xl border-black flex flex-wrap justify-center md:justify-between px-4 mt-[5vw]">
+        <div class="space-y-2 w-full md:w-fit">
+          <img src="./images/Logo.svg" alt="logo" class="mx-auto md:mx-0">
+          <p class="text-md text-center md:text-start md:mx-0 text-[#78859c]">More than 45,000+ companies trust besnik</p>
+        </div>
+        <div class="space-y-2 w-full md:w-fit relative mt-2 md:mt-0">
+          <div class="w-full flex md:justify-end">
+            <img src="./images/Star.svg" alt="review-rate"  class="mx-auto md:mx-0">
+          </div>
+          <p class="text-center">5 Star Ratings(2k+ Review)</p>
+        </div>
+      </div>
+    </div>
+    <!--Third Section-->
+    <div class="w-screen flex justify-center">
+      <div class="w-full max-w-6xl px-4 mt-[5vw]">
+        <ul class="grid md:flex justify-center md:justify-between space-y-4 md:space-y-0 md:space-x-4 md:items-center">
+          <li>
+            <img src="./images/undie.svg" alt="me-undies" class="mx-auto">
+          </li>
+          <li>
+            <img src="./images/slack.svg" alt="slack" class="mx-auto">
+          </li>
+          <li>
+            <img src="./images/amazon.svg" alt="amazon" class="mx-auto">
+          </li>
+          <li>
+            <img src="./images/commerce.svg" alt="woocommerce" class="mx-auto">
+          </li>
+          <li>
+            <img src="./images/sitepoint.svg" alt="sitepoint" class="mx-auto">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Fourth Section-->
+    <div class="w-screen flex justify-center">
+      <div class="w-full max-w-6xl mt-[5vw] flex flex-wrap justify-center border-black">
+        <!--first div-->
+        <div class="w-full grid justify-center space-y-2 px-4 border-black">
+          <div class="w-12 bg-black h-1 rounded-lg mx-auto"></div>
+          <p class="text-2xl text-center">How its works ?</p>
+          <p class="text-md text-center text-[#78859c]">Everything you need to know when you're looking to buy, rent, or sell - all in one place</p>
+        </div>
+        <!--second div-->
+        <div class="w-full grid md:flex justify-center md:justify-around mt-[5vw] space-y-6 md:space-y-0 md:space-x-4">
+          <div class="w-full md:w-fit grid justify-center space-y-2">
+            <img src="./images/cart.svg" alt="cart-icon" class="mx-auto">
+            <p class="mx-auto">Buyer Guides</p>
+            <a class="flex items-center text-xs mx-auto text-[#0689ff]">How to buy<span><img src="./images/arrow.svg" alt="arrow" class="ml-2 w-5"></span></a>
+          </div>
+          <div class="w-full md:w-fit grid justify-center space-y-2">
+            <img src="./images/rent.svg" alt="cart-icon" class="mx-auto">
+            <p class="mx-auto">Renter Guides</p>
+            <a class="flex items-center text-xs mx-auto text-[#0689ff]">How to buy<span><img src="./images/arrow.svg" alt="arrow" class="ml-2 w-5"></span></a>
+          </div>
+          <div class="w-full md:w-fit grid justify-center space-y-2">
+            <img src="./images/housedollars.svg" alt="cart-icon" class="mx-auto">
+            <p class="mx-auto">Seller Guides</p>
+            <a class="flex items-center text-xs mx-auto text-[#0689ff]">How to buy<span><img src="./images/arrow.svg" alt="arrow" class="ml-2 w-5"></span></a>
+          </div>
+        </div>
+        <button class="p-2 text-white bg-[#0f1b4c] rounded-md self-end mt-[5vw]">See Full Guidelines</button>
+      </div>
+    </div>
+    <!--Fifth Section-->
+    <div class="w-screen bg-[#e6f0ff] mt-[5vw] h-auto flex justify-center px-4">
+      <div class="w-full h-auto max-w-6xl bg-[#e6f0ff] mt-[5vw] mb-[5vw] border-black flex flex-wrap justify-center md:justify-between">
+        <!--Text Div-->
+        <div class="flex flex-wrap w-full justify-center md:justify-between h-fit">
+          <div class="w-fit md:justify-start h-fit">
+            <p class="text-2xl text-center md:text-left">Featured Properties</p>
+            <p class="text-sm text-center md:text-left mt-4">Everything you need to know when you're looking</p>
+          </div>
+          <div class="w-full md:w-fit md:h-fit flex justify-center md:self-end mt-4 md:mt-0">
+            <a class="flex items-center text-[#0689ff]">View All Properties<span><img src="./images/arrow.svg" alt="arrow-click" class="ml-2 w-5"></span></a>
+          </div>
+        </div>
+        <!--Picture Div-->
+        <div class="grid space-y-4 lg:space-y-0 lg:flex flex-wrap justify-center lg:justify-between w-full mt-[3vw]">
+          <!--first card-->
+          <div class="max-w-xs rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="./images/sampleh1.svg" alt="sample-house-1">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">35000$</div>
+              <p class="text-gray-700 text-base">7502 Preston Rd. Inglewood, Maine 98280</p>
+            </div>
+            <div class="px-6 pb-2 flex justify-around items-center ">
+              <span class="inline-flex items-center px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/bed.svg" alt="" class="w-5"><p class="w-20 text-sm pl-2">5 Beds</p></span>
+              <span class="inline-flex px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/bath.svg" alt="" class="w-5"><p class="w-20 pl-2">5 Beds</p></span>
+              <span class="inline-flex px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/area.svg" alt="" class="w-5"><p class="w-20 pl-2">5 Beds</p></span>
+            </div>
+          </div>
+          <!--second card-->
+          <div class="max-w-xs rounded overflow-hidden shadow-lg mt-10 md:mt-0">
+            <img class="w-full" src="./images/sampleh2.svg" alt="sample-house-2">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">35000$</div>
+              <p class="text-gray-700 text-base">7502 Preston Rd. Inglewood, Maine 98280</p>
+            </div>
+            <div class="px-6 pb-2 flex justify-around items-center">
+              <span class="inline-flex items-center px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/bed.svg" alt="" class="w-5"><p class="w-20 text-sm pl-2">5 Beds</p></span>
+              <span class="inline-flex px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/bath.svg" alt="" class="w-5"><p class="w-20 pl-2">5 Beds</p></span>
+              <span class="inline-flex px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/area.svg" alt="" class="w-5"><p class="w-20 pl-2">5 Beds</p></span>
+            </div>
+          </div>
+          <!--third card-->
+          <div class="max-w-xs rounded overflow-hidden shadow-lg  mt-10 md:mt-0">
+            <img class="w-full" src="./images/sampleh3.svg" alt="sample-house-3">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">35000$</div>
+              <p class="text-gray-700 text-base">7502 Preston Rd. Inglewood, Maine 98280</p>
+            </div>
+            <div class="px-6 pb-2 flex justify-around items-center">
+              <span class="inline-flex items-center px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/bed.svg" alt="" class="w-5"><p class="w-20 text-sm pl-2">5 Beds</p></span>
+              <span class="inline-flex px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/bath.svg" alt="" class="w-5"><p class="w-20 pl-2">5 Beds</p></span>
+              <span class="inline-flex px-3 py-1 text-sm font-semibold text-gray-700 mb-2"><img src="./images/area.svg" alt="" class="w-5"><p class="w-20 pl-2">5 Beds</p></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--sixth section-->
+   <div class="w-screen h-auto flex justify-center px-4">
+    <div class="w-full max-w-6xl grid md:flex">
+      <ul class="grid space-y-4 justify-center w-full md:flex md:justify-around ">
+        <li class="text-center md:mt-4">
+          <p class="text-[2.5em] font-bold ">2,500</p>
+          <p>Home For Sale</p>
+        </li>
+        <li class="text-center">
+          <p class="text-[2.5em] font-bold">5,000+</p>
+          <p>home Recently Sold</p>
+        </li>
+        <li class="text-center">
+          <p class="text-[2.5em] font-bold">170+</p>
+          <p>Price Reduced</p>
+        </li>
+      </ul>
+    </div>
+   </div>
+   <!--Seventh Section-->
+   <div class="w-screen flex justify-center mt-[5vw] px-4">
+    <div class="w-full max-w-6xl bg-[#063183] h-[15em] rounded-md relative flex justify-around items-center px-4">
+      <div class="flex flex-wrap md:grid justify-start space-y-3 pl-[2vw] my-[3vw] h-fit">
+        <p class="text-white text-2xl">Featured Properties</p>
+        <p class="text-white text-sm">Everything you need to know when you're looking</p>
+        <button class="bg-white text-[#063183] w-fit p-2 rounded-lg">Get Started Now</button>
+      </div>
+     <div class="relative">
+      <img src="./images/illustration.svg" alt="" class="relative scale-90 ">
+     </div>
+    </div>
+   </div>
+   <!--Footer-->
+   <footer class="w-screen flex justify-center px-4 mt-[5vw]">
+    <div class="w-full max-w-6xl grid grid-cols-4">
+      <!--first row-->
+      <div class="">
+        <p class="text-md font-bold mb-4">Product</p>
+        <ul class="mb-4 grid space-y-2">
+          <li class="text-sm text-[#7A7A7E] font-light">Listing</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Property</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Agents</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Blog</li>
+        </ul>
+      </div>
+      <div class="">
+        <!--second row-->
+        <p class="text-md font-bold mb-4">Resources</p>
+        <ul class="mb-4 grid space-y-2">
+          <li class="text-sm text-[#7A7A7E] font-light">Our Homes</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Member Stories</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Video</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Free trial</li>
+        </ul>
+      </div>
+      <!--third row-->
+      <div class="">
+        <p class="text-md font-bold mb-4">Company</p>
+        <ul class="mb-4 grid space-y-2">
+          <li class="text-sm text-[#7A7A7E] font-light">Partnerships</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Terms of use</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Privacy</li>
+          <li class="text-sm text-[#7A7A7E] font-light">Sitemap</li>
+        </ul>
+      </div>
+      <div class="ml-2">
+        <p class="text-md font-bold mb-4">Get in touch</p>
+        <div class="flex flex-nowrap">
+          <a href="#" class="mr-2">
+            <img src="./images/Facebook icon.svg" alt="">
+          </a>
+          <a href="#" class="mx-2">
+            <img src="./images/twitter icon.svg" alt="">
+          </a>
+          <a href="#" class="mx-2">
+            <img src="./images/lindedin icon.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <div class="w-screen flex justify-center px-4 mt-[3vw]">
+    <div class="w-full max-w-6xl flex justify-between items-center">
+      <img src="./images/footer logo.svg" alt="footer-logo">
+      <p class="text-xs text-[#7A7A7E]">Copyright 2020.com, All rights reserved.</p>
+    </div>
+   </div>
+<script src="./script.js"></script>
+</body>
+</html>
